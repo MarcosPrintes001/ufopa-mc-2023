@@ -39,7 +39,11 @@ npm start
 ```
 
 https://sequelize.org/docs/v6/core-concepts/model-basics/#using-sequelizedefine
+
 https://www.docker.com/101-tutorial/https://sequelize.org/docs/v6/core-concepts/getters-setters-virtuals/
+
 https://sequelize.org/docs/v6/core-concepts/model-querying-finders/
+
 https://sequelize.org/docs/v6/core-concepts/model-instances/
+
 https://sequelize.org/

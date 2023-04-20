@@ -2,16 +2,19 @@ import app from "./config/express.js";
 import db from "./config/database.js";
 import booksRoutes from "./routes/books.js";
 import authorsRoutes from "./routes/authors.js";
+import veiculosRoutes from "./routes/veiculos.js";
+
 
 import { createBooks } from "./seeds.js";
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 /**
  * Registra as rotas no aplicativo principal
  */
 app.use("/books", booksRoutes);
 app.use("/authors", authorsRoutes);
+app.use('/veiculos', veiculosRoutes)
 
 /**
  * Middleware para erros
